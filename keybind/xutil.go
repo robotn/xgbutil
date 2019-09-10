@@ -61,7 +61,7 @@ func keyKeys(xu *xgbutil.XUtil) []xgbutil.KeyKey {
 
 	keys := make([]xgbutil.KeyKey, len(xu.Keybinds))
 	i := 0
-	for key, _ := range xu.Keybinds {
+	for key := range xu.Keybinds {
 		keys[i] = key
 		i++
 	}
@@ -100,7 +100,7 @@ func connectedKeyBind(xu *xgbutil.XUtil, evtype int, win xproto.Window) bool {
 
 	// Since we can't create a full key, loop through all key binds
 	// and check if evtype and window match.
-	for key, _ := range xu.Keybinds {
+	for key := range xu.Keybinds {
 		if key.Evtype == evtype && key.Win == win {
 			return true
 		}
@@ -121,7 +121,7 @@ func detachKeyBindWindow(xu *xgbutil.XUtil, evtype int, win xproto.Window) {
 
 	// Since we can't create a full key, loop through all key binds
 	// and check if evtype and window match.
-	for key, _ := range xu.Keybinds {
+	for key := range xu.Keybinds {
 		if key.Evtype == evtype && key.Win == win {
 			xu.Keygrabs[key] -= len(xu.Keybinds[key])
 			delete(xu.Keybinds, key)

@@ -233,7 +233,7 @@ func DesktopViewportGet(xu *xgbutil.XUtil) ([]DesktopViewport, error) {
 	}
 
 	viewports := make([]DesktopViewport, len(coords)/2)
-	for i, _ := range viewports {
+	for i := range viewports {
 		viewports[i] = DesktopViewport{
 			X: int(coords[i*2]),
 			Y: int(coords[i*2+1]),
@@ -770,7 +770,7 @@ func WmOpaqueRegionGet(xu *xgbutil.XUtil,
 	}
 
 	regions := make([]WmOpaqueRegion, len(raw)/4)
-	for i, _ := range regions {
+	for i := range regions {
 		regions[i] = WmOpaqueRegion{
 			X:      int(raw[i*4+0]),
 			Y:      int(raw[i*4+1]),
@@ -1133,7 +1133,7 @@ func WorkareaGet(xu *xgbutil.XUtil) ([]Workarea, error) {
 	}
 
 	workareas := make([]Workarea, len(rects)/4)
-	for i, _ := range workareas {
+	for i := range workareas {
 		workareas[i] = Workarea{
 			X:      int(rects[i*4]),
 			Y:      int(rects[i*4+1]),

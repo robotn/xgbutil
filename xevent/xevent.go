@@ -219,7 +219,7 @@ func Detach(xu *xgbutil.XUtil, win xproto.Window) {
 	xu.CallbacksLck.Lock()
 	defer xu.CallbacksLck.Unlock()
 
-	for evtype, _ := range xu.Callbacks {
+	for evtype := range xu.Callbacks {
 		delete(xu.Callbacks[evtype], win)
 	}
 }

@@ -42,7 +42,7 @@ func mouseKeys(xu *xgbutil.XUtil) []xgbutil.MouseKey {
 
 	keys := make([]xgbutil.MouseKey, len(xu.Mousebinds))
 	i := 0
-	for key, _ := range xu.Mousebinds {
+	for key := range xu.Mousebinds {
 		keys[i] = key
 		i++
 	}
@@ -81,7 +81,7 @@ func connectedMouseBind(xu *xgbutil.XUtil, evtype int, win xproto.Window) bool {
 
 	// Since we can't create a full key, loop through all mouse binds
 	// and check if evtype and window match.
-	for key, _ := range xu.Mousebinds {
+	for key := range xu.Mousebinds {
 		if key.Evtype == evtype && key.Win == win {
 			return true
 		}
@@ -99,7 +99,7 @@ func detachMouseBindWindow(xu *xgbutil.XUtil, evtype int, win xproto.Window) {
 
 	// Since we can't create a full key, loop through all mouse binds
 	// and check if evtype and window match.
-	for key, _ := range xu.Mousebinds {
+	for key := range xu.Mousebinds {
 		if key.Evtype == evtype && key.Win == win {
 			xu.Mousegrabs[key] -= len(xu.Mousebinds[key])
 			delete(xu.Mousebinds, key)
