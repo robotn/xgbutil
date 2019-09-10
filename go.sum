@@ -2,7 +2,7 @@ github.com/BurntSushi/freetype-go v0.0.0-20160129220410-b763ddbfe298 h1:1qlsVAQJ
 github.com/BurntSushi/freetype-go v0.0.0-20160129220410-b763ddbfe298/go.mod h1:D+QujdIlUNfa0igpNMk6UIvlb6C252URs4yupRUV4lQ=
 github.com/BurntSushi/graphics-go v0.0.0-20160129215708-b43f31a4a966 h1:lTG4HQym5oPKjL7nGs+csTgiDna685ZXjxijkne828g=
 github.com/BurntSushi/graphics-go v0.0.0-20160129215708-b43f31a4a966/go.mod h1:Mid70uvE93zn9wgF92A/r5ixgnvX8Lh68fxp9KQBaI0=
-github.com/BurntSushi/xgbutil v0.0.0-20190907113008-ad855c713046 h1:O/r2Sj+8QcMF7V5IcmiE2sMFV2q3J47BEirxbXJAdzA=
-github.com/BurntSushi/xgbutil v0.0.0-20190907113008-ad855c713046/go.mod h1:uw9h2sd4WWHOPdJ13MQpwK5qYWKYDumDqxWWIknEQ+k=
 github.com/robotn/xgb v0.0.0-20190910151114-b250faa511c2 h1:xqEFcO1uUaZ/keHtQkz9gVMWeDxs+zkzLNroyj9sjEI=
 github.com/robotn/xgb v0.0.0-20190910151114-b250faa511c2/go.mod h1:SxQhJskUJ4rleVU44YvnrdvxQr0tKy5SRSigBrCgyyQ=
+github.com/robotn/xgbutil v0.0.0-20190910152759-31a4be58354a h1:3Y7tV4pC5n5VC6qCqAYwmEt/li32Y3P94c0iAifFZt4=
+github.com/robotn/xgbutil v0.0.0-20190910152759-31a4be58354a/go.mod h1:8j8AYKlAY/ezh3xN7eoneXxgufp1x/nj8tRh0vs79HM=

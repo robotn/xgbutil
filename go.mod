@@ -9,4 +9,7 @@ require (
 	github.com/BurntSushi/xgbutil v0.0.0-20190907113008-ad855c713046
 )
 
-replace github.com/BurntSushi/xgb => github.com/robotn/xgb v0.0.0-20190910151114-b250faa511c2
+replace (
+	github.com/BurntSushi/xgb => github.com/robotn/xgb v0.0.0-20190910151114-b250faa511c2
+	github.com/BurntSushi/xgbutil => github.com/robotn/xgbutil v0.0.0-20190910152759-31a4be58354a
+)
