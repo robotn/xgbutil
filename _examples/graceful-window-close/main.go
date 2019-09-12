@@ -24,12 +24,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/mousebind"
-	"github.com/BurntSushi/xgbutil/xevent"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/mousebind"
+	"github.com/robotn/xgbutil/xevent"
+	"github.com/robotn/xgbutil/xwindow"
 )
 
 // When counter reaches 0, exit.

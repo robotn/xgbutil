@@ -1,10 +1,10 @@
 package mousebind
 
 import (
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xevent"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/xevent"
 )
 
 // Drag is the public interface that will make the appropriate connections

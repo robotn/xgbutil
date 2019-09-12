@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/xinerama"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb"
+	"github.com/robotn/xgb/xinerama"
+	"github.com/robotn/xgb/xproto"
 )
 
 // Logger is used through xgbutil when messages need to be emitted to stderr.

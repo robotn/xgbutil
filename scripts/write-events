@@ -56,8 +56,8 @@ if sys.argv[1] == 'evtypes':
     print 'import ('
     print '\t"fmt"'
     print
-    print '\t"github.com/BurntSushi/xgb/shape"'
-    print '\t"github.com/BurntSushi/xgb/xproto"'
+    print '\t"github.com/robotn/xgb/shape"'
+    print '\t"github.com/robotn/xgb/xproto"'
     print ')'
     print
 
@@ -100,9 +100,9 @@ elif sys.argv[1] == 'callbacks':
 */'''
     print
     print 'import ('
-    print '\t"github.com/BurntSushi/xgb/xproto"'
+    print '\t"github.com/robotn/xgb/xproto"'
     print
-    print '\t"github.com/BurntSushi/xgbutil"'
+    print '\t"github.com/robotn/xgbutil"'
     print ')'
     print
 

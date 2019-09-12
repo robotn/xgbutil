@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xevent"
-	"github.com/BurntSushi/xgbutil/xgraphics"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/xevent"
+	"github.com/robotn/xgbutil/xgraphics"
 )
 
 var (

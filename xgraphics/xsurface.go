@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/ewmh"
-	"github.com/BurntSushi/xgbutil/icccm"
-	"github.com/BurntSushi/xgbutil/keybind"
-	"github.com/BurntSushi/xgbutil/mousebind"
-	"github.com/BurntSushi/xgbutil/xevent"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/ewmh"
+	"github.com/robotn/xgbutil/icccm"
+	"github.com/robotn/xgbutil/keybind"
+	"github.com/robotn/xgbutil/mousebind"
+	"github.com/robotn/xgbutil/xevent"
+	"github.com/robotn/xgbutil/xwindow"
 )
 
 /*

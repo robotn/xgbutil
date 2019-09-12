@@ -19,7 +19,7 @@ Installation
 
 xgbutil is go-gettable:
 
-	go get github.com/BurntSushi/xgbutil
+	go get github.com/robotn/xgbutil
 
 Dependencies
 
@@ -31,7 +31,7 @@ Quick Example
 
 A quick example to demonstrate that xgbutil is working correctly:
 
-	go get github.com/BurntSushi/xgbutil/examples/window-name-sizes
+	go get github.com/robotn/xgbutil/examples/window-name-sizes
 	GO/PATH/bin/window-name-sizes
 
 The output will be a list of names of all top-level windows and their geometry

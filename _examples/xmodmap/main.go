@@ -10,10 +10,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/keybind"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/keybind"
 )
 
 func main() {

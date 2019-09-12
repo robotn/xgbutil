@@ -30,10 +30,10 @@ package motif
 import (
 	"fmt"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xprop"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/xprop"
 )
 
 const (

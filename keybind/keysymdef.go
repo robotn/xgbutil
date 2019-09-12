@@ -13,7 +13,7 @@ keysyms is a mapping from english strings to key symbols.
 strKeysyms is a mapping from key symbols to english strings.
 */
 
-import "github.com/BurntSushi/xgb/xproto"
+import "github.com/robotn/xgb/xproto"
 
 func init() {
 	strKeysyms = make(map[xproto.Keysym]string, len(keysyms))

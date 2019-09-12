@@ -1,11 +1,11 @@
 package xwindow
 
 import (
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/icccm"
-	"github.com/BurntSushi/xgbutil/xevent"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/icccm"
+	"github.com/robotn/xgbutil/xevent"
 )
 
 // WMGracefulClose will do all the necessary setup to implement the

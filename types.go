@@ -8,8 +8,8 @@ mousebind.)
 */
 
 import (
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb"
+	"github.com/robotn/xgb/xproto"
 )
 
 // Callback is an interface that should be implemented by event callback

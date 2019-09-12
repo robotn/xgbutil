@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xevent"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/xevent"
 )
 
 var modifiers []uint16 = []uint16{ // order matters!

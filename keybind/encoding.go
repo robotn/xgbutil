@@ -14,9 +14,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
+	"github.com/robotn/xgbutil"
 )
 
 // LookupString attempts to convert a (modifiers, keycode) to an english string.

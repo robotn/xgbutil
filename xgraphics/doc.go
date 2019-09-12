@@ -85,6 +85,6 @@ routines. (Unfortunately, both things need to be fast.)
 If your X server is not configured to what the xgraphics package expects,
 messages will be emitted to stderr when a new xgraphics.Image value is created.
 If you see any of these messages, please report them to xgbutil's project page:
-https://github.com/BurntSushi/xgbutil.
+https://github.com/robotn/xgbutil.
 */
 package xgraphics

@@ -17,18 +17,18 @@ Your first stop should be the examples directory.
 
 Installation
 ============
-go get github.com/BurntSushi/xgbutil
+go get github.com/robotn/xgbutil
 
 Dependencies
 ============
 XGB is the main dependency. Use of the xgraphics packages requires graphics-go
 and freetype-go.
 
-XGB project URL: https://github.com/BurntSushi/xgb
+XGB project URL: https://github.com/robotn/xgb
 
 Quick Example
 =============
-go get github.com/BurntSushi/xgbutil/_examples/window-name-sizes
+go get github.com/robotn/xgbutil/_examples/window-name-sizes
 "$GOPATH"/bin/window-name-sizes
 
 The output will be a list of names of all top-level windows and their geometry
@@ -37,7 +37,7 @@ some basic EWMH properties.)
 
 Documentation
 =============
-https://godoc.org/github.com/BurntSushi/xgbutil
+https://godoc.org/github.com/robotn/xgbutil
 
 Examples
 ========

@@ -10,9 +10,9 @@ would become cluttered with functions that should not be used.
 */
 
 import (
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
+	"github.com/robotn/xgbutil"
 )
 
 // attachKeyBindCallback associates an (event, window, mods, keycode)

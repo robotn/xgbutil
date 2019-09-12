@@ -15,6 +15,6 @@ more bloated than I would like.
 
 If you have any suggestions for other examples to include, I'd be happy to hear
 them. You may post them at the main project page:
-https://github.com/BurntSushi/xgbutil.
+https://github.com/robotn/xgbutil.
 */
 package documentation

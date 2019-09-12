@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/robotn/xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xgraphics"
+	"github.com/robotn/xgbutil"
+	"github.com/robotn/xgbutil/xgraphics"
 )
 
 func main() {
@@ -76,7 +76,7 @@ func checkCompatibility(X *xgbutil.XUtil) {
 	// Give instructions on reporting the issue.
 	if failed {
 		log.Printf("Please report the aforementioned error message(s) at " +
-			"https://github.com/BurntSushi/xgbutil. Please also include the " +
+			"https://github.com/robotn/xgbutil. Please also include the " +
 			"entire output of the `xdpyinfo` command in your report. Thanks!")
 	} else {
 		log.Printf("No compatibility issues detected.")
